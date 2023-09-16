@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         if (door.gameObject.tag=="door")
         {
-            SceneManager.LoadScene("WinScreen");
+            SceneManager.LoadScene("Scenes/Level 2");
         }
     }
 
