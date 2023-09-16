@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public static string havekey = "n";
-    public static string havefriend = "n";
-
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -21,13 +19,13 @@ public class Player : MonoBehaviour
     }
 
 
-
-    private void OnCollisionEnter2D(Collision2D door)
+    private void OnCollisionEnter2D(Collision2D obj)
     {
-        if (door.gameObject.tag=="door")
+        if (obj.gameObject.tag=="Level 3 Finish")
         {
-            SceneManager.LoadScene("Scenes/Level 2");
+            SceneManager.LoadScene("Scenes/Level 1");
         }
+
     }
 
 }
