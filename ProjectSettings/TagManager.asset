@@ -7,6 +7,7 @@ TagManager:
   - Key
   - door
   - Level 3 Finish
+  - Level 2 Finish
   layers:
   - Default
   - TransparentFX

@@ -21,10 +21,21 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D obj)
     {
+        if (obj.gameObject.tag == "Level 2 Finish")
+        {
+            SceneManager.LoadScene("Scenes/Level 3");
+        }
+
+        if (obj.gameObject.tag == "Level 2 Finish")
+        {
+            SceneManager.LoadScene("Scenes/Level 3");
+        }
+
         if (obj.gameObject.tag=="Level 3 Finish")
         {
             SceneManager.LoadScene("Scenes/Level 1");
         }
+
 
     }
 
