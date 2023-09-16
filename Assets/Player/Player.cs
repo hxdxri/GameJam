@@ -21,9 +21,9 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D obj)
     {
-        if (obj.gameObject.tag == "Level 2 Finish")
+        if (obj.gameObject.tag == "Level 1 Finish")
         {
-            SceneManager.LoadScene("Scenes/Level 3");
+            SceneManager.LoadScene("Scenes/Level 2");
         }
 
         if (obj.gameObject.tag == "Level 2 Finish")

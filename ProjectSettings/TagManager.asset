@@ -8,6 +8,7 @@ TagManager:
   - door
   - Level 3 Finish
   - Level 2 Finish
+  - Level 1 Finish
   layers:
   - Default
   - TransparentFX
