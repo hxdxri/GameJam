@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.22776806, b: 0.84313726, a: 1}
+  m_Color: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 1535564367}
   - component: {fileID: 1535564366}
   m_Layer: 5
-  m_Name: Titletext
+  m_Name: TitletText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -695,7 +695,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 1
+  m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
@@ -818,26 +818,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objective: Complete 5 mazes in under 60 seconds.
+  m_text: 'Objective: Complete 5 mazes in under 1 minute.
 
-    
+
 
     Steps:
 
-    
+
 
     1.
-    Press ''Start'' to begin.
+    Press ''PLAY'' to begin.
 
     2. Use arrow keys to navigate.
 
-    3. Solve
-    a maze to progress to the next.
+    3. Solve a
+    maze to progress to the next.
 
-    4. Finish all 5 before the timer hits zero
-    to win.
+    4. Finish all 5 in 1 minute or less.
 
-    5. If time runs out, game''s over. Press ''Restart'' to try again.'
+    5.
+    If time runs out, game''s over. Press ''Restart'' to try again.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1101,8 +1101,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
