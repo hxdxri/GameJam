@@ -73,9 +73,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.875
+    - _ScaleRatioB: 0.7109375
+    - _ScaleRatioC: 0.7109375
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -168,9 +168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Hall_Fetica SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -1064132805
   material: {fileID: -8831477392203725076}
-  materialHashCode: 0
+  materialHashCode: 1153550395
   m_Version: 1.1.0
   m_SourceFontFileGUID: 5bb30a9871d632146964691d0c3ef812
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 5bb30a9871d632146964691d0c3ef812, type: 3}
