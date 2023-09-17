@@ -35,11 +35,16 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Scenes/Level 4");
         }
+
         if (obj.gameObject.tag == "Level 4 Finish")
+        {
+            SceneManager.LoadScene("Scenes/Level 5");
+        }
+
+        if (obj.gameObject.tag == "Level 5 Finish")
         {
             SceneManager.LoadScene("Scenes/Level 1");
         }
-
 
 
     }
