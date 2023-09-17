@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4758617497915762909}
   - component: {fileID: 8463652056230979287}
   - component: {fileID: 772934786493139913}
-  - component: {fileID: 8698082299501705423}
   - component: {fileID: 92975837425860334}
+  - component: {fileID: 7599606188243474749}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -114,18 +114,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8698082299501705423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7357838198121288593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33c630c5d6f356c42b405bc972a56c08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &92975837425860334
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -174,3 +162,19 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &7599606188243474749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357838198121288593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33c630c5d6f356c42b405bc972a56c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNames:
+  - Scenes/Level 1
+  - Scenes/Level 2
+  - Scenes/Level 3
