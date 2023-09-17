@@ -16,7 +16,7 @@ public class TimeHolder : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer > 10 && !switchedScene && !Player.isDone)
+        if(timer > 60 && !switchedScene && !Player.isDone)
         {
             switchedScene = true;
             SceneManager.LoadScene("Scenes/YouLose");
