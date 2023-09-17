@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+
+    public static bool isDone = false;
  
     // Start is called before the first frame update
     void Start()
@@ -43,7 +45,8 @@ public class Player : MonoBehaviour
 
         if (obj.gameObject.tag == "Level 5 Finish")
         {
-            SceneManager.LoadScene("Scenes/Level 1");
+            isDone = true;
+            SceneManager.LoadScene("Scenes/YouWin");
         }
 
 
