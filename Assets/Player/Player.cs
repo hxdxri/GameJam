@@ -33,8 +33,13 @@ public class Player : MonoBehaviour
 
         if (obj.gameObject.tag=="Level 3 Finish")
         {
+            SceneManager.LoadScene("Scenes/Level 4");
+        }
+        if (obj.gameObject.tag == "Level 4 Finish")
+        {
             SceneManager.LoadScene("Scenes/Level 1");
         }
+
 
 
     }
